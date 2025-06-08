@@ -1,0 +1,37 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {
+  };
+  objectVersion = 50;
+  objects = {
+
+  /* Project object */
+    1D6058900D05DD3D006BFB54 /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        LastUpgradeCheck = 1300;
+        TargetAttributes = {
+          1D6058910D05DD3D006BFB54 = {
+            CreatedOnToolsVersion = 13.0;
+          };
+        };
+      };
+      buildConfigurationList = 1D6058930D05DD3E006BFB54;
+      compatibilityVersion = "Xcode 13.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+      );
+      mainGroup = 1D60588D0D05DD3D006BFB54;
+      productRefGroup = 1D60588E0D05DD3D006BFB54;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (
+        1D6058910D05DD3D006BFB54,
+      );
+    };
+  };
+  rootObject = 1D6058900D05DD3D006BFB54 /* Project object */;
+}
