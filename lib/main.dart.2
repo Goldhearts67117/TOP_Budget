@@ -1,0 +1,36 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MonBudgetFacileApp());
+}
+
+class MonBudgetFacileApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Mon Budget Facile',
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+      ),
+      home: AccueilPage(),
+      debugShowCheckedModeBanner: false,
+    );
+  }
+}
+
+class AccueilPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Mon Budget Facile'),
+      ),
+      body: Center(
+        child: Text(
+          'Bienvenue dans votre appli budget !',
+          style: TextStyle(fontSize: 22),
+        ),
+      ),
+    );
+  }
+}
